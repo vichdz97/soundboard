@@ -38,6 +38,7 @@ function App() {
     return (
         <div className="d-flex flex-column justify-content-center align-items-center">
             <div className="heading text-center">
+                <img src="soundwave.png" alt="Soundwave" />
                 <h1>Soundboard</h1>
                 <p>Click a <button className="btn btn-light shadow p-1 m-1" onClick={() => playSound("/sounds/click.mp3")}>button</button> and see what sound it makes! <br /> Have fun :{")"}</p>
             </div>
