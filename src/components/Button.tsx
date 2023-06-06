@@ -7,7 +7,7 @@ interface Props {
 
 function Button({ children, onClick }: Props) {
     return (
-        <button className="btn btn-danger m-3 p-5" onClick={onClick}>{children}</button>
+        <button className="btn btn-light shadow m-3 p-5" onClick={onClick}>{children}</button>
     )
 }
 
